@@ -1,0 +1,35 @@
+# Git Ignore
+# Arnab Jain
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Windows thumbnail db
+Thumbs.db
+
+# OSX files
+.DS_Store
+
+# Eclipse project files
+.classpath
+.project
+
+venv/
+.idea/
+*.sqlite3
+*.pyc
+
+
+#meda files
+media/
+
+#static files
+/static
+
+# vs code
+.vscode/
+
+# migrations
+**/migrations/**
+!**/migrations
+!**/migrations/__init__.py
